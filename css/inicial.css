@@ -26,6 +26,7 @@ div#apresentacao{
 
 a{
     color:  #f2ee1b;
+    text-decoration :none;
 }
 
 div#projetos{
@@ -38,6 +39,11 @@ div#projetos{
 }
 
 img{
-    max-width:80%;
+  max-width:80%;
 	height:auto;
+}
+
+a:hover{
+  color: #44d9e6;
+  text-decoration :underline;
 }
