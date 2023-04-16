@@ -70,6 +70,13 @@ p {
   transition: 1s;
 }
 
+
+img#logo{
+    max-width: 50%;
+    height:30%;
+}
+
+
 @media screen and (min-width: 768px) {
   
 .gallery {
