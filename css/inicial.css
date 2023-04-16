@@ -6,21 +6,21 @@ body{
 
 h1{
     color: white;
-    font-size: 2em;
+    font-size: 1.7em;
     text-align: center;
 }
 
 h2{
    color: white;
    text-align: center;
-   font-size: 1.7em;
+   font-size: 1.5em;
    margin-left: 5%;
    margin-right: 5%;
 }
 
 div#apresentacao{
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 1%;
+  margin-right: 1%;
   text-align: center;
 }
 
@@ -31,19 +31,82 @@ a{
 
 div#projetos{
   display: flex;
-  flex-direction:column;
   align-items: center;
-  font-size: 16pt;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-img{
-  max-width:80%;
-	height:auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 a:hover{
   color: #44d9e6;
   text-decoration :underline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  margin: 1%;
+  text-align: center;
+  width: 25%;
+}
+#projetos img {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  height: 170px;
+}
+p {
+  margin: 5px 0 0 0;
+  color:white;
+  size: 1.5em;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+@media screen and (min-width: 768px) {
+  
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.gallery img {
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5%;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+  
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.gallery img {
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5%;
+}
 }
